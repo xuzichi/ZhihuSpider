@@ -1,9 +1,0 @@
-# Netscape HTTP Cookie File
-# http://curl.haxx.se/rfc/cookie_spec.html
-# This is a generated file!  Do not edit.
-
-.zhihu.com	TRUE	/	FALSE	1654443832	_xsrf	LvLbjxPY9Mal9KyAucplByQzexiWI4SN
-.zhihu.com	TRUE	/	FALSE	1639755836	_zap	dd15c419-7028-4c23-ae08-9f2c1ccc7c9f
-.zhihu.com	TRUE	/	FALSE	1579275832	capsion_ticket	"2|1:0|10:1576683832|14:capsion_ticket|44:OGRkYWRhYTIzMjIzNDA4MjkzNzljZTM2MTY4MzMwNTU=|dd3a39a7ea63583926982c90dc00af368fcf1f1c33ba36525b9d05795a1812e5"
-.zhihu.com	TRUE	/	TRUE	1592235838	z_c0	"2|1:0|10:1576683838|4:z_c0|80:MS4xanMxdUF3QUFBQUFtQUFBQVlBSlZUVDZYNTE3b1hjRmVpZVZyYjRfRFVPd0xEV0ZmZHVzV0l3PT0=|1186dc786b04c9c9bcb5db41862c22e1810d377ad4913a8cf351d0584a5e55e6"
-www.zhihu.com	FALSE	/	FALSE	1576931529	tgw_l7_route	73af20938a97f63d9b695ad561c4c10c
