@@ -1,0 +1,4 @@
+# 忽略cookie和已经爬出来的csv文件
+*.csv
+cookies.txt
+question.html
