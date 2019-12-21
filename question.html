@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="zh" data-hairline="true" data-theme="light"><head><meta charSet="utf-8"/><title data-react-helmet="true">如何理解麻将里面的各种技巧？ - 知乎</title><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/><meta name="renderer" content="webkit"/><meta name="force-rendering" content="webkit"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg"/><meta data-react-helmet="true" name="description" property="og:description" content="打麻将的乐趣绝非仅仅在赢钱，而在于打的时候，需要用尽各种心思骗上家盯下家，有时候要故意打好张，有时…"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png" sizes="152x152"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-120.b3e6278d.png" sizes="120x120"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-76.7a750095.png" sizes="76x76"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.a4a761d4.png" sizes="60x60"/><link rel="shortcut icon" type="image/x-icon" href="https://static.zhihu.com/static/favicon.ico"/><link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎"/><link rel="dns-prefetch" href="//static.zhimg.com"/><link rel="dns-prefetch" href="//pic1.zhimg.com"/><link rel="dns-prefetch" href="//pic2.zhimg.com"/><link rel="dns-prefetch" href="//pic3.zhimg.com"/><link rel="dns-prefetch" href="//pic4.zhimg.com"/><style>
+.u-safeAreaInset-top {
+  height: constant(safe-area-inset-top) !important;
+  height: env(safe-area-inset-top) !important;
+  
+}
+.u-safeAreaInset-bottom {
+  height: constant(safe-area-inset-bottom) !important;
+  height: env(safe-area-inset-bottom) !important;
+  
+}
+</style><link href="https://static.zhihu.com/heifetz/app.c1b18e6d8ef48d95970f.css" rel="stylesheet"/><link href="https://static.zhihu.com/heifetz/question-routes.de0e7c3c529c56e502e7.css" rel="stylesheet"/><script defer="" crossorigin="anonymous" src="https://unpkg.zhimg.com/@cfe/sentry-script@latest/dist/init.js" data-sentry-config="{&quot;dsn&quot;:&quot;https://65e244586890460588f00f2987137aa8@crash2.zhihu.com/193&quot;,&quot;sampleRate&quot;:0.1,&quot;release&quot;:&quot;844-1b2f0a7b&quot;,&quot;ignoreErrorNames&quot;:[&quot;NetworkError&quot;,&quot;SecurityError&quot;],&quot;ignoreErrors&quot;:[&quot;origin message&quot;,&quot;Network request failed&quot;,&quot;Loading chunk&quot;,&quot;这个系统不支持该功能。&quot;,&quot;Can&#x27;t find variable: webkit&quot;,&quot;Can&#x27;t find variable: $&quot;,&quot;内存不足&quot;,&quot;out of memory&quot;,&quot;DOM Exception 18&quot;,&quot;The operation is insecure&quot;,&quot;[object Event]&quot;,&quot;[object FileError]&quot;,&quot;[object DOMError]&quot;,&quot;[object Object]&quot;,&quot;拒绝访问。&quot;,&quot;Maximum call stack size exceeded&quot;,&quot;UploadError&quot;,&quot;无法 fetch&quot;,&quot;draft-js&quot;,&quot;缺少 JavaScript 对象&quot;,&quot;componentWillEnter&quot;,&quot;componentWillLeave&quot;,&quot;componentWillAppear&quot;,&quot;getInlineStyleAt&quot;,&quot;getCharacterList&quot;],&quot;whitelistUrls&quot;:[&quot;static.zhihu.com&quot;]}"></script></head><body><div id="root"><div><div class="LoadingBar"></div><div><header role="banner" class="Sticky AppHeader" data-za-module="TopNavBar"><div class="AppHeader-inner"><a href="//www.zhihu.com" aria-label="知乎"><svg viewBox="0 0 200 91" class="Icon ZhihuLogo ZhihuLogo--blue Icon--logo" style="height:30px;width:64px" width="64" height="30" aria-hidden="true"><title></title><g><path d="M53.29 80.035l7.32.002 2.41 8.24 13.128-8.24h15.477v-67.98H53.29v67.978zm7.79-60.598h22.756v53.22h-8.73l-8.718 5.473-1.587-5.46-3.72-.012v-53.22zM46.818 43.162h-16.35c.545-8.467.687-16.12.687-22.955h15.987s.615-7.05-2.68-6.97H16.807c1.09-4.1 2.46-8.332 4.1-12.708 0 0-7.523 0-10.085 6.74-1.06 2.78-4.128 13.48-9.592 24.41 1.84-.2 7.927-.37 11.512-6.94.66-1.84.785-2.08 1.605-4.54h9.02c0 3.28-.374 20.9-.526 22.95H6.51c-3.67 0-4.863 7.38-4.863 7.38H22.14C20.765 66.11 13.385 79.24 0 89.62c6.403 1.828 12.784-.29 15.937-3.094 0 0 7.182-6.53 11.12-21.64L43.92 85.18s2.473-8.402-.388-12.496c-2.37-2.788-8.768-10.33-11.496-13.064l-4.57 3.627c1.363-4.368 2.183-8.61 2.46-12.71H49.19s-.027-7.38-2.372-7.38zm128.752-.502c6.51-8.013 14.054-18.302 14.054-18.302s-5.827-4.625-8.556-1.27c-1.874 2.548-11.51 15.063-11.51 15.063l6.012 4.51zm-46.903-18.462c-2.814-2.577-8.096.667-8.096.667s12.35 17.2 12.85 17.953l6.08-4.29s-8.02-11.752-10.83-14.33zM199.99 46.5c-6.18 0-40.908.292-40.953.292v-31.56c1.503 0 3.882-.124 7.14-.376 12.773-.753 21.914-1.25 27.427-1.504 0 0 3.817-8.496-.185-10.45-.96-.37-7.24 1.43-7.24 1.43s-51.63 5.153-72.61 5.64c.5 2.756 2.38 5.336 4.93 6.11 4.16 1.087 7.09.53 15.36.277 7.76-.5 13.65-.76 17.66-.76v31.19h-41.71s.88 6.97 7.97 7.14h33.73v22.16c0 4.364-3.498 6.87-7.65 6.6-4.4.034-8.15-.36-13.027-.566.623 1.24 1.977 4.496 6.035 6.824 3.087 1.502 5.054 2.053 8.13 2.053 9.237 0 14.27-5.4 14.027-14.16V53.93h38.235c3.026 0 2.72-7.432 2.72-7.432z" fill-rule="evenodd"/></g></svg></a><ul role="navigation" class="Tabs AppHeader-Tabs"><li role="tab" class="Tabs-item AppHeader-Tab Tabs-item--noMeta"><a class="Tabs-link AppHeader-TabsLink" href="//www.zhihu.com/" data-za-not-track-link="true">首页</a></li><li role="tab" class="Tabs-item AppHeader-Tab Tabs-item--noMeta"><a class="Tabs-link AppHeader-TabsLink" href="//www.zhihu.com/explore" data-za-not-track-link="true">发现</a></li><li role="tab" class="Tabs-item AppHeader-Tab Tabs-item--noMeta"><a class="Tabs-link AppHeader-TabsLink" href="//www.zhihu.com/question/waiting" data-za-not-track-link="true">等你来答</a></li></ul><div class="SearchBar" role="search" data-za-module="PresetWordItem"><div class="SearchBar-toolWrapper"><form class="SearchBar-tool"><div><div class="Popover"><label class="SearchBar-input Input-wrapper Input-wrapper--grey"><input type="text" maxLength="100" value="" autoComplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-activedescendant="null--1" id="null-toggle" aria-haspopup="true" aria-owns="null-content" class="Input" placeholder=""/><button aria-label="搜索" type="button" class="Button SearchBar-searchButton Button--primary"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Search SearchBar-searchIcon" fill="currentColor" viewBox="0 0 24 24" width="18" height="18"><path d="M17.068 15.58a8.377 8.377 0 0 0 1.774-5.159 8.421 8.421 0 1 0-8.42 8.421 8.38 8.38 0 0 0 5.158-1.774l3.879 3.88c.957.573 2.131-.464 1.488-1.49l-3.879-3.878zm-6.647 1.157a6.323 6.323 0 0 1-6.316-6.316 6.323 6.323 0 0 1 6.316-6.316 6.323 6.323 0 0 1 6.316 6.316 6.323 6.323 0 0 1-6.316 6.316z" fill-rule="evenodd"></path></svg></span></button></label></div></div></form></div><button type="button" class="Button SearchBar-askButton Button--primary Button--blue">提问</button></div><div class="AppHeader-userInfo"><button type="button" class="Button PushNotifications-icon AppHeader-notifications Button--plain"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Bell" fill="currentColor" viewBox="0 0 24 24" width="22" height="22"><path d="M4.523 15.076l.804-6.757a6.753 6.753 0 0 1 4.945-5.7 1.823 1.823 0 0 1 3.623 0 6.753 6.753 0 0 1 4.945 5.7l.804 6.757a2.293 2.293 0 0 0 1.712 2.108 1.093 1.093 0 0 1-.297 2.15H3.108a1.093 1.093 0 0 1-.297-2.15 2.293 2.293 0 0 0 1.712-2.108zM12.083 23a2.758 2.758 0 0 1-2.753-2.509.229.229 0 0 1 .232-.24h5.043a.229.229 0 0 1 .232.24 2.759 2.759 0 0 1-2.753 2.51z"></path></svg></span></button><button type="button" class="Button Messages-icon AppHeader-messages Button--plain"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Comments" fill="currentColor" viewBox="0 0 24 24" width="22" height="22"><path d="M11 2c5.571 0 9 4.335 9 8 0 6-6.475 9.764-11.481 8.022-.315-.07-.379-.124-.78.078-1.455.54-2.413.921-3.525 1.122-.483.087-.916-.25-.588-.581 0 0 .677-.417.842-1.904.064-.351-.14-.879-.454-1.171A8.833 8.833 0 0 1 2 10c0-3.87 3.394-8 9-8zm10.14 9.628c.758.988.86 2.009.86 3.15 0 1.195-.619 3.11-1.368 3.938-.209.23-.354.467-.308.722.12 1.073.614 1.501.614 1.501.237.239-.188.562-.537.5-.803-.146-1.495-.42-2.546-.811-.29-.146-.336-.106-.563-.057-2.043.711-4.398.475-6.083-.927 5.965-.524 8.727-3.03 9.93-8.016z" fill-rule="evenodd"></path></svg></span></button><div class="AppHeader-profile"><button type="button" class="Button AppHeader-profileEntry Button--plain"><img class="Avatar AppHeader-profileAvatar" width="30" height="30" src="https://pic1.zhimg.com/da8e974dc_is.jpg" srcSet="https://pic1.zhimg.com/da8e974dc_im.jpg 2x"/></button></div></div></div><div></div></header></div><main role="main" class="App-main"><div class="QuestionPage" itemscope="" itemType="http://schema.org/Question"><meta itemProp="name" content="如何理解麻将里面的各种技巧？"/><meta itemProp="url" content="https://www.zhihu.com/question/35670502"/><meta itemProp="keywords" content="麻将,麻将技术"/><meta itemProp="answerCount" content="16"/><meta itemProp="commentCount" content="3"/><meta itemProp="dateCreated" content="2015-09-16T11:18:38.000Z"/><meta itemProp="dateModified" content="2015-09-16T13:08:45.000Z"/><meta itemProp="zhihu:visitsCount"/><meta itemProp="zhihu:followerCount" content="159"/><div data-zop-question="{&quot;title&quot;:&quot;如何理解麻将里面的各种技巧？&quot;,&quot;topics&quot;:[{&quot;name&quot;:&quot;麻将&quot;,&quot;id&quot;:&quot;19556383&quot;},{&quot;name&quot;:&quot;麻将技术&quot;,&quot;id&quot;:&quot;19905216&quot;}],&quot;id&quot;:35670502,&quot;isEditable&quot;:true}"><div class="QuestionHeader"><div class="QuestionHeader-content"><div class="QuestionHeader-main"><div class="QuestionHeader-tags"><div class="QuestionHeader-topics"><div class="Tag QuestionTopic"><span class="Tag-content"><a class="TopicLink" href="//www.zhihu.com/topic/19556383" target="_blank"><div class="Popover"><div id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content">麻将</div></div></a></span></div><div class="Tag QuestionTopic"><span class="Tag-content"><a class="TopicLink" href="//www.zhihu.com/topic/19905216" target="_blank"><div class="Popover"><div id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content">麻将技术</div></div></a></span></div></div></div><h1 class="QuestionHeader-title">如何理解麻将里面的各种技巧？</h1><div><div class="QuestionHeader-detail"><div class="QuestionRichText QuestionRichText--expandable QuestionRichText--collapsed"><div><span class="RichText ztext" itemProp="text">打麻将的乐趣绝非仅仅在赢钱，而在于打的时候，需要用尽各种心思骗上家盯下家，有时候要故意打好张，有时候又特意要喂一口，欲擒故纵，真真假假，羊头狗肉，声东击西，明修栈道，暗渡陈仓，上下其手，两面三刀…这哪里是打牌，完全是一种心理战。 作为一个麻将小白来讲，完全不明白上面这段话怎么理解</span><button type="button" class="Button QuestionRichText-more Button--plain">显示全部<svg viewBox="0 0 10 6" class="Icon QuestionRichText-more-icon Icon--arrow" style="height:16px;width:10px" width="10" height="16" aria-hidden="true"><title></title><g><path d="M8.716.217L5.002 4 1.285.218C.99-.072.514-.072.22.218c-.294.29-.294.76 0 1.052l4.25 4.512c.292.29.77.29 1.063 0L9.78 1.27c.293-.29.293-.76 0-1.052-.295-.29-.77-.29-1.063 0z"/></g></svg></button></div></div></div></div></div><div class="QuestionHeader-side"><div class="QuestionHeader-follow-status"><div class="QuestionFollowStatus"><div class="NumberBoard QuestionFollowStatus-counts NumberBoard--divider"><button type="button" class="Button NumberBoard-item Button--plain"><div class="NumberBoard-itemInner"><div class="NumberBoard-itemName">关注者</div><strong class="NumberBoard-itemValue" title="159">159</strong></div></button><div class="NumberBoard-item"><div class="NumberBoard-itemInner"><div class="NumberBoard-itemName">被浏览</div><strong class="NumberBoard-itemValue" title="126620">126,620</strong></div></div></div></div></div></div></div><div class="QuestionHeader-footer"><div class="QuestionHeader-footer-inner"><div class="QuestionHeader-main QuestionHeader-footer-main"><div class="QuestionButtonGroup"><button type="button" class="Button FollowButton Button--primary Button--blue">关注问题</button><button type="button" class="Button Button--blue"><svg viewBox="0 0 12 12" class="Icon QuestionButton-icon Button-icon Icon--modify" style="height:16px;width:14px" width="14" height="16" aria-hidden="true"><title></title><g><path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z" fill-rule="evenodd"/></g></svg>写回答</button></div><div class="QuestionHeaderActions"><button style="margin-right:16px" type="button" class="Button Button--grey Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Invite Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M4 10V8a1 1 0 1 1 2 0v2h2a1 1 0 0 1 0 2H6v2a1 1 0 0 1-2 0v-2H2a1 1 0 0 1 0-2h2zm10.455 2c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm-7 6c0-2.66 4.845-4 7.272-4C17.155 14 22 15.34 22 18v1.375c0 .345-.28.625-.625.625H8.08a.625.625 0 0 1-.625-.625V18z" fill-rule="evenodd"></path></svg></span>邀请回答</button><div class="QuestionHeader-Comment"><button type="button" class="Button Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z" fill-rule="evenodd"></path></svg></span>3 条评论</button></div><div class="Popover ShareMenu"><div class="ShareMenu-toggler" id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><button type="button" class="Button Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Share Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M2.931 7.89c-1.067.24-1.275 1.669-.318 2.207l5.277 2.908 8.168-4.776c.25-.127.477.198.273.39L9.05 14.66l.927 5.953c.18 1.084 1.593 1.376 2.182.456l9.644-15.242c.584-.892-.212-2.029-1.234-1.796L2.93 7.89z" fill-rule="evenodd"></path></svg></span>分享</button></div></div><button type="button" class="Button Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Report Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M19.947 3.129c-.633.136-3.927.639-5.697.385-3.133-.45-4.776-2.54-9.949-.888-.997.413-1.277 1.038-1.277 2.019L3 20.808c0 .3.101.54.304.718a.97.97 0 0 0 .73.304c.275 0 .519-.102.73-.304.202-.179.304-.418.304-.718v-6.58c4.533-1.235 8.047.668 8.562.864 2.343.893 5.542.008 6.774-.657.397-.178.596-.474.596-.887V3.964c0-.599-.42-.972-1.053-.835z" fill-rule="evenodd"></path></svg></span>举报</button><div class="Popover"><button aria-label="更多" type="button" id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content" class="Button Button--plain Button--withIcon Button--iconOnly"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Dots Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M5 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></svg></span></button></div></div><div class="QuestionHeader-actions"></div></div></div></div></div><div><div class="Sticky"></div></div></div><div class="Question-main"><div class="Question-mainColumn"><div><div class="QuestionAnswers-statusWrapper"></div><div id="QuestionAnswers-answers" class="QuestionAnswers-answers" data-zop-feedlistmap="0,0,1,0"><div class="Card AnswersNavWrapper"><div class="ListShortcut"><div class="List"><div class="List-header"><h4 class="List-headerText"><span>16<!-- --> 个回答</span></h4><div class="List-headerOptions"><div class="Popover"><button role="combobox" aria-expanded="false" id="null-toggle" aria-haspopup="true" aria-owns="null-content" type="button" class="Button InputLike InputButton Select-button Select-plainButton Button--plain">默认排序<svg class="Zi Zi--Select Select-arrow" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M12 16.183l2.716-2.966a.757.757 0 0 1 1.064.001.738.738 0 0 1 0 1.052l-3.247 3.512a.758.758 0 0 1-1.064 0L8.22 14.27a.738.738 0 0 1 0-1.052.758.758 0 0 1 1.063 0L12 16.183zm0-9.365L9.284 9.782a.758.758 0 0 1-1.064 0 .738.738 0 0 1 0-1.052l3.248-3.512a.758.758 0 0 1 1.065 0L15.78 8.73a.738.738 0 0 1 0 1.052.757.757 0 0 1-1.063.001L12 6.818z" fill-rule="evenodd"></path></svg></button></div></div></div><div><div class=""><div class="List-item" tabindex="0"><div class="ContentItem AnswerItem" data-za-index="0" data-zop="{&quot;authorName&quot;:&quot;段昊&quot;,&quot;itemId&quot;:63986671,&quot;title&quot;:&quot;如何理解麻将里面的各种技巧？&quot;,&quot;type&quot;:&quot;answer&quot;}" name="63986671" itemProp="acceptedAnswer" itemType="http://schema.org/Answer" itemscope=""><div class="ContentItem-meta"><div class="AuthorInfo AnswerItem-authorInfo AnswerItem-authorInfo--related" itemProp="author" itemscope="" itemType="http://schema.org/Person"><meta itemProp="name" content="段昊"/><meta itemProp="image" content="https://pic4.zhimg.com/v2-434e3a8e2d1e8811b699600d6937f53e_is.jpg"/><meta itemProp="url" content="https://www.zhihu.com/people/dight119"/><meta itemProp="zhihu:followerCount" content="31382"/><span class="UserLink AuthorInfo-avatarWrapper"><div class="Popover"><div id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><a class="UserLink-link" data-za-detail-view-element_name="User" target="_blank" href="//www.zhihu.com/people/dight119"><img class="Avatar AuthorInfo-avatar" width="38" height="38" src="https://pic4.zhimg.com/v2-434e3a8e2d1e8811b699600d6937f53e_xs.jpg" srcSet="https://pic4.zhimg.com/v2-434e3a8e2d1e8811b699600d6937f53e_l.jpg 2x" alt="段昊"/></a></div></div></span><div class="AuthorInfo-content"><div class="AuthorInfo-head"><span class="UserLink AuthorInfo-name"><div class="Popover"><div id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><a class="UserLink-link" data-za-detail-view-element_name="User" target="_blank" href="//www.zhihu.com/people/dight119">段昊</a></div></div><a class="UserLink-badge" data-tooltip="已认证的个人" href="https://www.zhihu.com/question/48510028" target="_blank" rel="noopener noreferrer"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--BadgeCert" fill="currentColor" viewBox="0 0 24 24" width="18" height="18"><g fill="none" fill-rule="evenodd"><path fill="#0F88EB" d="M2.64 13.39c1.068.895 1.808 2.733 1.66 4.113l.022-.196c-.147 1.384.856 2.4 2.24 2.278l-.198.016c1.387-.122 3.21.655 4.083 1.734l-.125-.154c.876 1.084 2.304 1.092 3.195.027l-.127.152c.895-1.068 2.733-1.808 4.113-1.66l-.198-.022c1.386.147 2.402-.856 2.279-2.238l.017.197c-.122-1.388.655-3.212 1.734-4.084l-.154.125c1.083-.876 1.092-2.304.027-3.195l.152.127c-1.068-.895-1.808-2.732-1.66-4.113l-.022.198c.147-1.386-.856-2.4-2.24-2.279l.198-.017c-1.387.123-3.21-.654-4.083-1.733l.125.153c-.876-1.083-2.304-1.092-3.195-.027l.127-.152c-.895 1.068-2.733 1.808-4.113 1.662l.198.02c-1.386-.147-2.4.857-2.279 2.24L4.4 6.363c.122 1.387-.655 3.21-1.734 4.084l.154-.126c-1.083.878-1.092 2.304-.027 3.195l-.152-.127z"></path><path fill="#FFF" d="M9.78 15.728l-2.633-2.999s-.458-.705.242-1.362c.7-.657 1.328-.219 1.328-.219l1.953 2.132 4.696-4.931s.663-.348 1.299.198c.636.545.27 1.382.27 1.382s-3.466 3.858-5.376 5.782c-.98.93-1.778.017-1.778.017z"></path></g></svg></span></a></span></div><div class="AuthorInfo-detail"><div class="AuthorInfo-badge"><div class="AuthorInfo-badgeText">北京大学 医学博士</div></div></div></div></div><div class="AnswerItem-extraInfo"><span class="Voters"><button type="button" class="Button Button--plain">91 人<!-- -->赞同了该回答</button></span></div></div><meta itemProp="image"/><meta itemProp="upvoteCount" content="91"/><meta itemProp="url" content="https://www.zhihu.com/question/35670502/answer/63986671"/><meta itemProp="dateCreated" content="2015-09-17T02:38:13.000Z"/><meta itemProp="dateModified" content="2015-09-17T02:38:36.000Z"/><meta itemProp="commentCount" content="40"/><div class="RichContent RichContent--unescapable"><div class="RichContent-inner"><span class="RichText ztext CopyrightRichText-richText" itemProp="text">不用理解。<br/><br/>麻将压根不是「心理战」。<b>麻将的本质是一个概率游戏。</b>打牌的时候只需要按照概率最大的打法来打就可以了，而概率的计算<b>主要依据是牌理</b>，而不是别人的心理。<br/><br/>真正需要「我这样打，别人就会认为怎样怎样，然后就会打什么什么给我」类似的技巧的局面，能占到<b> 1% </b>就很不错了。</span></div><div><div class="ContentItem-time"><a target="_blank" href="/question/35670502/answer/63986671"><span data-tooltip="发布于 2015-09-17 10:38">编辑于 2015-09-17</span></a></div><div class="Reward"><div><div class="Reward-tagline">您的支持，是我创作的动力</div><button class="Reward-rewardBtn">赞赏</button></div><div class="Reward-countZero">还没有人赞赏，快来当第一个赞赏的人吧！</div></div></div><div class="ContentItem-actions RichContent-actions"><span><button aria-label="赞同 91" type="button" class="Button VoteButton VoteButton--up"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--TriangleUp VoteButton-TriangleUp" fill="currentColor" viewBox="0 0 24 24" width="10" height="10"><path d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z" fill-rule="evenodd"></path></svg></span>赞同 91</button><button aria-label="反对" type="button" class="Button VoteButton VoteButton--down"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--TriangleDown" fill="currentColor" viewBox="0 0 24 24" width="10" height="10"><path d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z" fill-rule="evenodd"></path></svg></span></button></span><button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z" fill-rule="evenodd"></path></svg></span>40 条评论</button><div class="Popover ShareMenu ContentItem-action"><div class="ShareMenu-toggler" id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><button type="button" class="Button Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Share Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M2.931 7.89c-1.067.24-1.275 1.669-.318 2.207l5.277 2.908 8.168-4.776c.25-.127.477.198.273.39L9.05 14.66l.927 5.953c.18 1.084 1.593 1.376 2.182.456l9.644-15.242c.584-.892-.212-2.029-1.234-1.796L2.93 7.89z" fill-rule="evenodd"></path></svg></span>分享</button></div></div><button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Star Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M5.515 19.64l.918-5.355-3.89-3.792c-.926-.902-.639-1.784.64-1.97L8.56 7.74l2.404-4.871c.572-1.16 1.5-1.16 2.072 0L15.44 7.74l5.377.782c1.28.186 1.566 1.068.64 1.97l-3.89 3.793.918 5.354c.219 1.274-.532 1.82-1.676 1.218L12 18.33l-4.808 2.528c-1.145.602-1.896.056-1.677-1.218z" fill-rule="evenodd"></path></svg></span>收藏</button><button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Heart Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M2 8.437C2 5.505 4.294 3.094 7.207 3 9.243 3 11.092 4.19 12 6c.823-1.758 2.649-3 4.651-3C19.545 3 22 5.507 22 8.432 22 16.24 13.842 21 12 21 10.158 21 2 16.24 2 8.437z" fill-rule="evenodd"></path></svg></span>喜欢</button><div class="Popover ContentItem-action"><button aria-label="更多" type="button" id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content" class="Button OptionsButton Button--plain Button--withIcon Button--iconOnly"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Dots Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M5 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></svg></span></button></div><button data-zop-retract-question="true" type="button" class="Button ContentItem-action ContentItem-rightButton Button--plain"><span class="RichContent-collapsedText">收起</span><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--ArrowDown ContentItem-arrowIcon is-active" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z" fill-rule="evenodd"></path></svg></span></button></div></div></div></div><div class="List-item" tabindex="0"><div class="ContentItem AnswerItem" data-za-index="1" data-zop="{&quot;authorName&quot;:&quot;王伟麟&quot;,&quot;itemId&quot;:64323103,&quot;title&quot;:&quot;如何理解麻将里面的各种技巧？&quot;,&quot;type&quot;:&quot;answer&quot;}" name="64323103" itemProp="suggestedAnswer" itemType="http://schema.org/Answer" itemscope=""><div class="ContentItem-meta"><div class="AuthorInfo AnswerItem-authorInfo AnswerItem-authorInfo--related" itemProp="author" itemscope="" itemType="http://schema.org/Person"><meta itemProp="name" content="王伟麟"/><meta itemProp="image" content="https://pic1.zhimg.com/e4db0375fd5422c7d67aaa55dc089fcc_is.jpg"/><meta itemProp="url" content="https://www.zhihu.com/people/wang-wei-lin-1"/><meta itemProp="zhihu:followerCount" content="25684"/><span class="UserLink AuthorInfo-avatarWrapper"><div class="Popover"><div id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><a class="UserLink-link" data-za-detail-view-element_name="User" target="_blank" href="//www.zhihu.com/people/wang-wei-lin-1"><img class="Avatar AuthorInfo-avatar" width="38" height="38" src="https://pic1.zhimg.com/e4db0375fd5422c7d67aaa55dc089fcc_xs.jpg" srcSet="https://pic1.zhimg.com/e4db0375fd5422c7d67aaa55dc089fcc_l.jpg 2x" alt="王伟麟"/></a></div></div></span><div class="AuthorInfo-content"><div class="AuthorInfo-head"><span class="UserLink AuthorInfo-name"><div class="Popover"><div id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><a class="UserLink-link" data-za-detail-view-element_name="User" target="_blank" href="//www.zhihu.com/people/wang-wei-lin-1">王伟麟</a></div></div></span></div><div class="AuthorInfo-detail"><div class="AuthorInfo-badge"><div class="ztext AuthorInfo-badgeText">国家注册抖机灵师</div></div></div></div></div><div class="AnswerItem-extraInfo"><span class="Voters"><button type="button" class="Button Button--plain">15 人<!-- -->赞同了该回答</button></span></div></div><meta itemProp="image"/><meta itemProp="upvoteCount" content="15"/><meta itemProp="url" content="https://www.zhihu.com/question/35670502/answer/64323103"/><meta itemProp="dateCreated" content="2015-09-19T10:06:31.000Z"/><meta itemProp="dateModified" content="2015-09-19T10:06:31.000Z"/><meta itemProp="commentCount" content="2"/><div class="RichContent RichContent--unescapable"><div class="RichContent-inner"><span class="RichText ztext CopyrightRichText-richText" itemProp="text">不用理解。<br/>以大多数人的麻将基本功水平之低，根本没有研究麻将心理战术的必要。</span></div><div><div class="ContentItem-time"><a target="_blank" href="/question/35670502/answer/64323103"><span data-tooltip="发布于 2015-09-19 18:06">发布于 2015-09-19</span></a></div></div><div class="ContentItem-actions RichContent-actions"><span><button aria-label="赞同 15" type="button" class="Button VoteButton VoteButton--up"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--TriangleUp VoteButton-TriangleUp" fill="currentColor" viewBox="0 0 24 24" width="10" height="10"><path d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z" fill-rule="evenodd"></path></svg></span>赞同 15</button><button aria-label="反对" type="button" class="Button VoteButton VoteButton--down"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--TriangleDown" fill="currentColor" viewBox="0 0 24 24" width="10" height="10"><path d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z" fill-rule="evenodd"></path></svg></span></button></span><button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Comment Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z" fill-rule="evenodd"></path></svg></span>2 条评论</button><div class="Popover ShareMenu ContentItem-action"><div class="ShareMenu-toggler" id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content"><button type="button" class="Button Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Share Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M2.931 7.89c-1.067.24-1.275 1.669-.318 2.207l5.277 2.908 8.168-4.776c.25-.127.477.198.273.39L9.05 14.66l.927 5.953c.18 1.084 1.593 1.376 2.182.456l9.644-15.242c.584-.892-.212-2.029-1.234-1.796L2.93 7.89z" fill-rule="evenodd"></path></svg></span>分享</button></div></div><button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Star Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M5.515 19.64l.918-5.355-3.89-3.792c-.926-.902-.639-1.784.64-1.97L8.56 7.74l2.404-4.871c.572-1.16 1.5-1.16 2.072 0L15.44 7.74l5.377.782c1.28.186 1.566 1.068.64 1.97l-3.89 3.793.918 5.354c.219 1.274-.532 1.82-1.676 1.218L12 18.33l-4.808 2.528c-1.145.602-1.896.056-1.677-1.218z" fill-rule="evenodd"></path></svg></span>收藏</button><button type="button" class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Heart Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M2 8.437C2 5.505 4.294 3.094 7.207 3 9.243 3 11.092 4.19 12 6c.823-1.758 2.649-3 4.651-3C19.545 3 22 5.507 22 8.432 22 16.24 13.842 21 12 21 10.158 21 2 16.24 2 8.437z" fill-rule="evenodd"></path></svg></span>喜欢</button><div class="Popover ContentItem-action"><button aria-label="更多" type="button" id="null-toggle" aria-haspopup="true" aria-expanded="false" aria-owns="null-content" class="Button OptionsButton Button--plain Button--withIcon Button--iconOnly"><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--Dots Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M5 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></svg></span></button></div><button data-zop-retract-question="true" type="button" class="Button ContentItem-action ContentItem-rightButton Button--plain"><span class="RichContent-collapsedText">收起</span><span style="display:inline-flex;align-items:center">​<svg class="Zi Zi--ArrowDown ContentItem-arrowIcon is-active" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z" fill-rule="evenodd"></path></svg></span></button></div></div></div></div><div></div></div></div></div></div></div></div></div></div></div></div></main><div data-zop-usertoken="{}"></div></div></div><script id="js-clientConfig" type="text/json">{"host":"zhihu.com","protocol":"https:","wwwHost":"www.zhihu.com","fetchRoot":{"www":"https:\u002F\u002Fwww.zhihu.com","api":"https:\u002F\u002Fapi.zhihu.com","zhuanlan":"https:\u002F\u002Fzhuanlan.zhihu.com"}}</script><script id="js-initialData" type="text/json">{"initialState":{"common":{"ask":{}},"loading":{"global":{"count":0},"local":{"question\u002Fget\u002F":false,"question\u002FgetAnswers\u002F35670502":false}},"entities":{"users":{"2f89003496a523796b8e96c913f0075f":{"uid":757003378277503000,"userType":"people","id":"2f89003496a523796b8e96c913f0075f"}},"questions":{"35670502":{"type":"question","id":35670502,"title":"如何理解麻将里面的各种技巧？","questionType":"normal","created":1442402318,"updatedTime":1442408925,"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502","isMuted":false,"isNormal":true,"isEditable":true,"adminClosedComment":false,"hasPublishingDraft":false,"answerCount":16,"visitCount":126620,"commentCount":3,"followerCount":159,"collapsedAnswerCount":0,"excerpt":"打麻将的乐趣绝非仅仅在赢钱，而在于打的时候，需要用尽各种心思骗上家盯下家，有时候要故意打好张，有时候又特意要喂一口，欲擒故纵，真真假假，羊头狗肉，声东击西，明修栈道，暗渡陈仓，上下其手，两面三刀…这哪里是打牌，完全是一种心理战。 作为一个麻将小白来讲，完全不明白上面这段话怎么理解","commentPermission":"all","detail":"打麻将的乐趣绝非仅仅在赢钱，而在于打的时候，需要用尽各种心思骗上家盯下家，有时候要故意打好张，有时候又特意要喂一口，欲擒故纵，真真假假，羊头狗肉，声东击西，明修栈道，暗渡陈仓，上下其手，两面三刀……这哪里是打牌，完全是一种心理战。\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E作为一个麻将小白来讲，完全不明白上面这段话怎么理解","editableDetail":"打麻将的乐趣绝非仅仅在赢钱，而在于打的时候，需要用尽各种心思骗上家盯下家，有时候要故意打好张，有时候又特意要喂一口，欲擒故纵，真真假假，羊头狗肉，声东击西，明修栈道，暗渡陈仓，上下其手，两面三刀……这哪里是打牌，完全是一种心理战。\u003Cbr\u003E\u003Cbr\u003E作为一个麻将小白来讲，完全不明白上面这段话怎么理解","status":{"isLocked":false,"isClose":false,"isEvaluate":false,"isSuggest":false},"relationship":{"isAuthor":false,"isFollowing":false,"isAnonymous":false,"canLock":false,"canStickAnswers":false,"canCollapseAnswers":false},"topics":[{"id":"19556383","type":"topic","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Ftopics\u002F19556383","name":"麻将","avatarUrl":"https:\u002F\u002Fpic3.zhimg.com\u002F27c99a8154decd703c1398b6dc0ee7d2_is.jpg"},{"id":"19905216","type":"topic","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Ftopics\u002F19905216","name":"麻将技术","avatarUrl":"https:\u002F\u002Fpic1.zhimg.com\u002F8120ea9191ff3adb6c61e8d001240ed0_is.jpg"}],"author":{"id":"f38ae4b3d4269ab78c28516f847b0743","urlToken":"meng-mian-54","name":"蒙面","avatarUrl":"https:\u002F\u002Fpic3.zhimg.com\u002F7ca5bf50f39b0aa7fd754b4089a5c041_is.jpg","avatarUrlTemplate":"https:\u002F\u002Fpic3.zhimg.com\u002F7ca5bf50f39b0aa7fd754b4089a5c041_{size}.jpg","isOrg":false,"type":"people","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002Ff38ae4b3d4269ab78c28516f847b0743","userType":"people","headline":"勤杂工","badge":[],"gender":1,"isAdvertiser":false,"isPrivacy":false},"canComment":{"status":true,"reason":""},"reviewInfo":{"type":"","tips":"","editTips":"","isReviewing":false},"relatedCards":[],"muteInfo":{"type":""},"showAuthor":false,"showEncourageAuthor":false,"voteupCount":0}},"answers":{"63986671":{"id":63986671,"type":"answer","answerType":"normal","question":{"type":"question","id":35670502,"title":"如何理解麻将里面的各种技巧？","questionType":"normal","created":1442402318,"updatedTime":1442408925,"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502","relationship":{}},"author":{"id":"24306fcdd3e438c6e141b129ccd79154","urlToken":"dight119","name":"段昊","avatarUrl":"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-434e3a8e2d1e8811b699600d6937f53e_is.jpg","avatarUrlTemplate":"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-434e3a8e2d1e8811b699600d6937f53e_{size}.jpg","isOrg":false,"type":"people","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002F24306fcdd3e438c6e141b129ccd79154","userType":"people","headline":"公众号「牌友之家」","badge":[{"type":"identity","description":"北京大学 医学博士","topics":[]}],"gender":1,"isAdvertiser":false,"followerCount":31382,"isFollowed":false,"isPrivacy":false},"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fanswers\u002F63986671","isCollapsed":false,"createdTime":1442457493,"updatedTime":1442457516,"extras":"","isCopyable":false,"isNormal":true,"voteupCount":91,"commentCount":40,"isSticky":false,"adminClosedComment":false,"commentPermission":"all","canComment":{"reason":"","status":true},"reshipmentSettings":"disallowed","content":"不用理解。\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E麻将压根不是「心理战」。\u003Cb\u003E麻将的本质是一个概率游戏。\u003C\u002Fb\u003E打牌的时候只需要按照概率最大的打法来打就可以了，而概率的计算\u003Cb\u003E主要依据是牌理\u003C\u002Fb\u003E，而不是别人的心理。\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E真正需要「我这样打，别人就会认为怎样怎样，然后就会打什么什么给我」类似的技巧的局面，能占到\u003Cb\u003E 1% \u003C\u002Fb\u003E就很不错了。","editableContent":"","excerpt":"不用理解。 麻将压根不是「心理战」。麻将的本质是一个概率游戏。打牌的时候只需要按照概率最大的打法来打就可以了，而概率的计算主要依据是牌理，而不是别人的心理。 真正需要「我这样打，别人就会认为怎样怎样，然后就会打什么什么给我」类似的技巧的局面，能占到 1% 就很不错了。","collapsedBy":"nobody","collapseReason":"","annotationAction":null,"markInfos":[],"relevantInfo":{"isRelevant":false,"relevantType":"","relevantText":""},"suggestEdit":{"reason":"","status":false,"tip":"","title":"","unnormalDetails":{"status":"","description":"","reason":"","reasonId":0,"note":""},"url":""},"isLabeled":false,"rewardInfo":{"canOpenReward":false,"isRewardable":true,"rewardMemberCount":0,"rewardTotalMoney":0,"tagline":"您的支持，是我创作的动力"},"relationship":{"isAuthor":false,"isAuthorized":false,"isNothelp":false,"isThanked":false,"isRecognized":false,"voting":0,"upvotedFollowees":[]},"adAnswer":null},"64323103":{"id":64323103,"type":"answer","answerType":"normal","question":{"type":"question","id":35670502,"title":"如何理解麻将里面的各种技巧？","questionType":"normal","created":1442402318,"updatedTime":1442408925,"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502","relationship":{}},"author":{"id":"822c2daa8d48ed8a6411aa7e157b90e1","urlToken":"wang-wei-lin-1","name":"王伟麟","avatarUrl":"https:\u002F\u002Fpic1.zhimg.com\u002Fe4db0375fd5422c7d67aaa55dc089fcc_is.jpg","avatarUrlTemplate":"https:\u002F\u002Fpic1.zhimg.com\u002Fe4db0375fd5422c7d67aaa55dc089fcc_{size}.jpg","isOrg":false,"type":"people","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002F822c2daa8d48ed8a6411aa7e157b90e1","userType":"people","headline":"国家注册抖机灵师","badge":[],"gender":1,"isAdvertiser":false,"followerCount":25684,"isFollowed":false,"isPrivacy":false},"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fanswers\u002F64323103","isCollapsed":false,"createdTime":1442657191,"updatedTime":1442657191,"extras":"","isCopyable":true,"isNormal":true,"voteupCount":15,"commentCount":2,"isSticky":false,"adminClosedComment":false,"commentPermission":"all","canComment":{"reason":"","status":true},"reshipmentSettings":"allowed","content":"不用理解。\u003Cbr\u002F\u003E以大多数人的麻将基本功水平之低，根本没有研究麻将心理战术的必要。","editableContent":"","excerpt":"不用理解。 以大多数人的麻将基本功水平之低，根本没有研究麻将心理战术的必要。","collapsedBy":"nobody","collapseReason":"","annotationAction":null,"markInfos":[],"relevantInfo":{"isRelevant":false,"relevantType":"","relevantText":""},"suggestEdit":{"reason":"","status":false,"tip":"","title":"","unnormalDetails":{"status":"","description":"","reason":"","reasonId":0,"note":""},"url":""},"isLabeled":false,"rewardInfo":{"canOpenReward":false,"isRewardable":false,"rewardMemberCount":0,"rewardTotalMoney":0,"tagline":""},"relationship":{"isAuthor":false,"isAuthorized":false,"isNothelp":false,"isThanked":false,"isRecognized":false,"voting":0,"upvotedFollowees":[]},"adAnswer":null},"64324085":{"id":64324085,"type":"answer","answerType":"normal","question":{"type":"question","id":35670502,"title":"如何理解麻将里面的各种技巧？","questionType":"normal","created":1442402318,"updatedTime":1442408925,"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502","relationship":{}},"author":{"id":"92d08273a3cfc4866b4163c20ec0c93f","urlToken":"quan-ci-fang-75","name":"小透明","avatarUrl":"https:\u002F\u002Fpic2.zhimg.com\u002F9bf4a2e6a3e1eb179f279acc4e4328eb_is.jpg","avatarUrlTemplate":"https:\u002F\u002Fpic2.zhimg.com\u002F9bf4a2e6a3e1eb179f279acc4e4328eb_{size}.jpg","isOrg":false,"type":"people","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002F92d08273a3cfc4866b4163c20ec0c93f","userType":"people","headline":"","badge":[],"gender":1,"isAdvertiser":false,"followerCount":32,"isFollowed":false,"isPrivacy":false},"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fanswers\u002F64324085","isCollapsed":false,"createdTime":1442657672,"updatedTime":1442657672,"extras":"","isCopyable":true,"isNormal":true,"voteupCount":5,"commentCount":0,"isSticky":false,"adminClosedComment":false,"commentPermission":"all","canComment":{"reason":"","status":true},"reshipmentSettings":"allowed","content":"技巧什么的我先不说 反正自从火警教练晒妹之后我再也不点赞了…","editableContent":"","excerpt":"技巧什么的我先不说 反正自从火警教练晒妹之后我再也不点赞了…","collapsedBy":"nobody","collapseReason":"","annotationAction":null,"markInfos":[],"relevantInfo":{"isRelevant":false,"relevantType":"","relevantText":""},"suggestEdit":{"reason":"","status":false,"tip":"","title":"","unnormalDetails":{"status":"","description":"","reason":"","reasonId":0,"note":""},"url":""},"isLabeled":false,"rewardInfo":{"canOpenReward":false,"isRewardable":false,"rewardMemberCount":0,"rewardTotalMoney":0,"tagline":""},"relationship":{"isAuthor":false,"isAuthorized":false,"isNothelp":false,"isThanked":false,"isRecognized":false,"voting":0,"upvotedFollowees":[]},"adAnswer":null},"64351141":{"id":64351141,"type":"answer","answerType":"normal","question":{"type":"question","id":35670502,"title":"如何理解麻将里面的各种技巧？","questionType":"normal","created":1442402318,"updatedTime":1442408925,"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502","relationship":{}},"author":{"id":"728d80307806e59631e9dac909f6ec93","urlToken":"cao-yuan-zhi-huo","name":"草原之火","avatarUrl":"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-438bbceebdee000a55cdaaca441a1108_is.jpg","avatarUrlTemplate":"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-438bbceebdee000a55cdaaca441a1108_{size}.jpg","isOrg":false,"type":"people","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002F728d80307806e59631e9dac909f6ec93","userType":"people","headline":"死宅","badge":[],"gender":1,"isAdvertiser":false,"followerCount":86,"isFollowed":false,"isPrivacy":false},"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fanswers\u002F64351141","isCollapsed":false,"createdTime":1442671295,"updatedTime":1442672257,"extras":"","isCopyable":true,"isNormal":true,"voteupCount":2,"commentCount":0,"isSticky":false,"adminClosedComment":false,"commentPermission":"all","canComment":{"reason":"","status":true},"reshipmentSettings":"allowed","content":"其实这个问题很好回答，这些所谓的招数你中过么？\u003Cbr\u002F\u003E没学过牌理或者自学牌理半成才的人打牌往往还在算自己的牌呢，哪有时间想东想西啊？\u003Cbr\u002F\u003E牌理好的人往往接受过科学的训练又不信这一套，你要是诚心喂我，我只有感谢你的份。\u003Cbr\u002F\u003E其他的电报他家，小统保大什么的跟国麻有一毛钱关系么？","editableContent":"","excerpt":"其实这个问题很好回答，这些所谓的招数你中过么？ 没学过牌理或者自学牌理半成才的人打牌往往还在算自己的牌呢，哪有时间想东想西啊？ 牌理好的人往往接受过科学的训练又不信这一套，你要是诚心喂我，我只有感谢你的份。 其他的电报他家，小统保大什么的跟国麻有一毛钱关系么？","collapsedBy":"nobody","collapseReason":"","annotationAction":null,"markInfos":[],"relevantInfo":{"isRelevant":false,"relevantType":"","relevantText":""},"suggestEdit":{"reason":"","status":false,"tip":"","title":"","unnormalDetails":{"status":"","description":"","reason":"","reasonId":0,"note":""},"url":""},"isLabeled":false,"rewardInfo":{"canOpenReward":false,"isRewardable":false,"rewardMemberCount":0,"rewardTotalMoney":0,"tagline":""},"relationship":{"isAuthor":false,"isAuthorized":false,"isNothelp":false,"isThanked":false,"isRecognized":false,"voting":0,"upvotedFollowees":[]},"adAnswer":null},"392245473":{"id":392245473,"type":"answer","answerType":"normal","question":{"type":"question","id":35670502,"title":"如何理解麻将里面的各种技巧？","questionType":"normal","created":1442402318,"updatedTime":1442408925,"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502","relationship":{}},"author":{"id":"dc8e3b3cf39c2919de07125b21147287","urlToken":"qiao-yong-cad","name":"巧用CAD","avatarUrl":"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-816ada09edad21d794c0ba32f74b407e_is.jpg","avatarUrlTemplate":"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-816ada09edad21d794c0ba32f74b407e_{size}.jpg","isOrg":false,"type":"people","url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002Fdc8e3b3cf39c2919de07125b21147287","userType":"people","headline":"","badge":[],"gender":-1,"isAdvertiser":false,"followerCount":17,"isFollowed":false,"isPrivacy":false},"url":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fanswers\u002F392245473","isCollapsed":false,"createdTime":1526370268,"updatedTime":1526370268,"extras":"","isCopyable":true,"isNormal":true,"voteupCount":3,"commentCount":0,"isSticky":false,"adminClosedComment":false,"commentPermission":"all","canComment":{"reason":"","status":true},"reshipmentSettings":"allowed","content":"\u003Cp\u003E\u003Cb\u003E晓风棋牌教你如何稳赢\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E舍牌的技巧\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E　　在摸牌之前就先考虑要打出那一张牌，别在摸牌后才考虑半天·通常先打字牌，再打偏张，最后才是中张数牌。\u003C\u002Fp\u003E\u003Cp\u003E　　若一开始便打数牌，甚至拆牌打，可能此人牌很好，要特别提防。\u003C\u002Fp\u003E\u003Cp\u003E　　一直打某一色的牌，须提防此人作大牌。\u003C\u002Fp\u003E\u003Cp\u003E　　一直未打某一色的牌，也可能有问题，他可能是在做清一色或混一色，别任意丢那门的牌\u003C\u002Fp\u003E\u003Cp\u003E　　假如是听牌阶段，若某家跑五万，小心你的一四万和六九万。\u003C\u002Fp\u003E\u003Cp\u003E　　某家先拆一二万，即可能手牌中有四五万的顺子，他对三六万非常饥渴。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E听牌的型态\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E　　听多门：一个数列通常听好几个洞，例如二三四五，听二五，二三四五六，听一四七。不过须注意胡其中某些牌可能破坏牌型(如一条龙、平胡....)\u003C\u002Fp\u003E\u003Cp\u003E　　听单调：及一张单张牌，要凑一个对子(将牌)\u003C\u002Fp\u003E\u003Cp\u003E　　听中洞：例如二四万，听中洞三万。\u003C\u002Fp\u003E\u003Cp\u003E　　听边张：例如七八万，听九万。\u003C\u002Fp\u003E\u003Cp\u003E　　听对对：留有两组对子，只要再凑一组刻子，另一组当将牌，因此听两张\u003C\u002Fp\u003E\u003Cp\u003E　　避免与上家听相同的牌，避免被早一家喊胡。\u003C\u002Fp\u003E","editableContent":"","excerpt":"晓风棋牌教你如何稳赢 舍牌的技巧 在摸牌之前就先考虑要打出那一张牌，别在摸牌后才考虑半天·通常先打字牌，再打偏张，最后才是中张数牌。 若一开始便打数牌，甚至拆牌打，可能此人牌很好，要特别提防。 一直打某一色的牌，须提防此人作大牌。 一直未打某一色的牌，也可能有问题，他可能是在做清一色或混一色，别任意丢那门的牌 假如是听牌阶段，若某家跑五万，小心你的一四万和六九万。 某家先拆一二万，即可能手牌中有四五万…","collapsedBy":"nobody","collapseReason":"","annotationAction":null,"markInfos":[],"relevantInfo":{"isRelevant":false,"relevantType":"","relevantText":""},"suggestEdit":{"reason":"","status":false,"tip":"","title":"","unnormalDetails":{"status":"","description":"","reason":"","reasonId":0,"note":""},"url":""},"isLabeled":false,"rewardInfo":{"canOpenReward":false,"isRewardable":false,"rewardMemberCount":0,"rewardTotalMoney":0,"tagline":""},"relationship":{"isAuthor":false,"isAuthorized":false,"isNothelp":false,"isThanked":false,"isRecognized":false,"voting":0,"upvotedFollowees":[]},"adAnswer":null}},"articles":{},"columns":{},"topics":{},"roundtables":{},"favlists":{},"comments":{},"notifications":{},"ebooks":{},"activities":{},"feeds":{},"pins":{},"promotions":{},"drafts":{},"chats":{},"posts":{},"clubs":{},"clubTags":{}},"currentUser":"2f89003496a523796b8e96c913f0075f","account":{"lockLevel":{},"unlockTicketStatus":false,"unlockTicket":null,"challenge":[],"errorStatus":false,"message":"","isFetching":false,"accountInfo":{},"urlToken":{"loading":false}},"settings":{"socialBind":null,"inboxMsg":null,"notification":{},"email":{},"privacyFlag":null,"blockedUsers":{"isFetching":false,"paging":{"pageNo":1,"pageSize":6},"data":[]},"blockedFollowees":{"isFetching":false,"paging":{"pageNo":1,"pageSize":6},"data":[]},"ignoredTopics":{"isFetching":false,"paging":{"pageNo":1,"pageSize":6},"data":[]},"restrictedTopics":null,"laboratory":{}},"notification":{},"people":{"profileStatus":{},"activitiesByUser":{},"answersByUser":{},"answersSortByVotesByUser":{},"answersIncludedByUser":{},"votedAnswersByUser":{},"thankedAnswersByUser":{},"voteAnswersByUser":{},"thankAnswersByUser":{},"topicAnswersByUser":{},"articlesByUser":{},"articlesSortByVotesByUser":{},"articlesIncludedByUser":{},"pinsByUser":{},"questionsByUser":{},"commercialQuestionsByUser":{},"favlistsByUser":{},"followingByUser":{},"followersByUser":{},"mutualsByUser":{},"followingColumnsByUser":{},"followingQuestionsByUser":{},"followingFavlistsByUser":{},"followingTopicsByUser":{},"publicationsByUser":{},"columnsByUser":{},"allFavlistsByUser":{},"brands":null,"creationsByUser":{},"creationsSortByVotesByUser":{}},"env":{"ab":{"config":{"experiments":[{"expId":"launch-gw_ad_banner-2","expPrefix":"gw_ad_banner","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-li_answer_card-4","expPrefix":"li_answer_card","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-li_li_se_section-7","expPrefix":"li_li_se_section","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-li_onebox_topic-5","expPrefix":"li_onebox_topic","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-nw_zhuantigaiban-2","expPrefix":"nw_zhuantigaiban","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-nw_zhuantikapian-2","expPrefix":"nw_zhuantikapian","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-qa_3q-2","expPrefix":"qa_3q","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-qa_answer_update-2","expPrefix":"qa_answer_update","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_book_chap-2","expPrefix":"rec_book_chap","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_km_item_cf-2","expPrefix":"rec_km_item_cf","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_km_model_mix-7","expPrefix":"rec_km_model_mix","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_km_sku_mix-8","expPrefix":"rec_km_sku_mix","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_km_zann-2","expPrefix":"rec_km_zann","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_new_commody-3","expPrefix":"rec_new_commody","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_paid_mix2-7","expPrefix":"rec_paid_mix2","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_prerank_heat-2","expPrefix":"rec_prerank_heat","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-rec_rewrite_qy-5","expPrefix":"rec_rewrite_qy","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_collegecm-3","expPrefix":"se_collegecm","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_entity_model-1","expPrefix":"se_entity_model","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_hot__timebox-2","expPrefix":"se_hot__timebox","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_ios_spb309-5","expPrefix":"se_ios_spb309","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_payconsult-3","expPrefix":"se_payconsult","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_pek_test3-2","expPrefix":"se_pek_test3","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_p_slideshow-2","expPrefix":"se_p_slideshow","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_r_search-3","expPrefix":"se_r_search","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_subtext-2","expPrefix":"se_subtext","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_wannasearch-5","expPrefix":"se_wannasearch","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_webtimebox-2","expPrefix":"se_webtimebox","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-se_whitelist-2","expPrefix":"se_whitelist","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-tp_club_qa-2","expPrefix":"tp_club_qa","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-tp_club_vote_pk-2","expPrefix":"tp_club_vote_pk","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-us_bigone-10","expPrefix":"us_bigone","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-us_foltopic_user-10","expPrefix":"us_foltopic_user","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-us_leave_rcmd-3","expPrefix":"us_leave_rcmd","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-us_newguide3-11","expPrefix":"us_newguide3","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-us_notification-2","expPrefix":"us_notification","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-us_n_web_msg-5","expPrefix":"us_n_web_msg","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"launch-vd_video_ad-1","expPrefix":"vd_video_ad","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"li_qa_pay_link-3","expPrefix":"li_qa_pay_link","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"li_pa_exp-1","expPrefix":"li_pa_exp","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"li_vip_lr-7","expPrefix":"li_vip_lr","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"li_video_section-10","expPrefix":"li_video_section","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"li_audio_ebook-6","expPrefix":"li_audio_ebook","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"se_opm-4","expPrefix":"se_opm","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"se_topicfeed-2","expPrefix":"se_topicfeed","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"se_pek_test2-2","expPrefix":"se_pek_test2","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"se_cardrank_2-2","expPrefix":"se_cardrank_2","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"us_bignew-8","expPrefix":"us_bignew","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"us_update-5","expPrefix":"us_update","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"us_wonderuser_rc-3","expPrefix":"us_wonderuser_rc","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"top_hotcommerce-2","expPrefix":"top_hotcommerce","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"tp_topic_rec-3","expPrefix":"tp_topic_rec","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"top_hotlist_ui-7","expPrefix":"top_hotlist_ui","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"top_hotredirect-8","expPrefix":"top_hotredirect","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"rec_expslotpaid-5","expPrefix":"rec_expslotpaid","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"rec_km_esmm-5","expPrefix":"rec_km_esmm","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"rec_desc_detail-2","expPrefix":"rec_desc_detail","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"rec_slotpaidexp-5","expPrefix":"rec_slotpaidexp","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"rec_test_aa1-9","expPrefix":"rec_test_aa1","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false},{"expId":"qa_same_question-1","expPrefix":"qa_same_question","isDynamicallyUpdated":true,"isRuntime":false,"includeTriggerInfo":false}],"params":[{"id":"se_perf","type":"String","value":"0","chainId":"_all_"},{"id":"se_featured","type":"String","value":"1","chainId":"_all_"},{"id":"tp_topic_style","type":"String","value":"0","chainId":"_all_"},{"id":"li_android_vip","type":"String","value":"0","chainId":"_all_"},{"id":"li_paid_answer_exp","type":"String","value":"0","chainId":"_all_"},{"id":"zr_paid_answer_exp","type":"String","value":"0","chainId":"_all_"},{"id":"zr_km_sku_mix","type":"String","value":"sku_50","chainId":"_all_"},{"id":"se_preset_label","type":"String","value":"0","chainId":"_all_"},{"id":"top_universalebook","type":"String","value":"1","chainId":"_all_"},{"id":"ug_zero_follow","type":"String","value":"0","chainId":"_all_"},{"id":"se_multi_task_new","type":"String","value":"0","chainId":"_all_"},{"id":"tp_topic_entry","type":"String","value":"0","chainId":"_all_"},{"id":"web_heifetz_grow_ad","type":"String","value":"1"},{"id":"zr_km_prerank","type":"String","value":"new","chainId":"_all_"},{"id":"zr_km_slot_style","type":"String","value":"event_card","chainId":"_all_"},{"id":"zr_recall_heatscore","type":"String","value":"4_6","chainId":"_all_"},{"id":"se_dnn_unbias","type":"String","value":"1","chainId":"_all_"},{"id":"li_qa_ad_card","type":"String","value":"0","chainId":"_all_"},{"id":"tsp_hotlist_ui","type":"String","value":"7","chainId":"_all_"},{"id":"zr_se_new_xgb","type":"String","value":"0","chainId":"_all_"},{"id":"se_ltr_dnn_cp","type":"String","value":"0","chainId":"_all_"},{"id":"se_cardrank_4","type":"String","value":"1","chainId":"_all_"},{"id":"ug_follow_answerer","type":"String","value":"0","chainId":"_all_"},{"id":"li_video_section","type":"String","value":"1","chainId":"_all_"},{"id":"se_site_onebox","type":"String","value":"0","chainId":"_all_"},{"id":"zr_esmm_model_mix","type":"String","value":"model_17","chainId":"_all_"},{"id":"top_quality","type":"String","value":"0","chainId":"_all_"},{"id":"ug_follow_topic_1","type":"String","value":"2","chainId":"_all_"},{"id":"web_n_web_msg","type":"String","value":"1"},{"id":"tp_club_qa_pic","type":"String","value":"1","chainId":"_all_"},{"id":"li_qa_cover","type":"String","value":"old","chainId":"_all_"},{"id":"li_query_match","type":"String","value":"0","chainId":"_all_"},{"id":"qap_thanks","type":"String","value":"1","chainId":"_all_"},{"id":"se_hotmore","type":"String","value":"2","chainId":"_all_"},{"id":"tp_sft","type":"String","value":"a","chainId":"_all_"},{"id":"se_billboardsearch","type":"String","value":"0","chainId":"_all_"},{"id":"ug_zero_follow_0","type":"String","value":"0","chainId":"_all_"},{"id":"top_ydyq","type":"String","value":"X","chainId":"_all_"},{"id":"zr_ans_rec","type":"String","value":"gbrank","chainId":"_all_"},{"id":"se_entity_model_14","type":"String","value":"0","chainId":"_all_"},{"id":"ug_fw_answ_aut_1","type":"String","value":"0","chainId":"_all_"},{"id":"se_search_feed","type":"String","value":"N","chainId":"_all_"},{"id":"se_payconsult","type":"String","value":"5","chainId":"_all_"},{"id":"soc_brdcst3","type":"String","value":"0","chainId":"_all_"},{"id":"pf_newguide_vertical","type":"String","value":"0","chainId":"_all_"},{"id":"ug_follow_answerer_0","type":"String","value":"0","chainId":"_all_"},{"id":"web_answerlist_ad","type":"String","value":"0"},{"id":"zr_km_feed_prerank","type":"String","value":"new","chainId":"_all_"},{"id":"tsp_vote","type":"String","value":"2","chainId":"_all_"},{"id":"se_zu_recommend","type":"String","value":"0","chainId":"_all_"},{"id":"ls_videoad","type":"String","value":"2","chainId":"_all_"},{"id":"soc_leave_recommend","type":"String","value":"2","chainId":"_all_"},{"id":"soc_authormore","type":"String","value":"0","chainId":"_all_"},{"id":"gue_zhuantikapian","type":"String","value":"1"},{"id":"zr_rec_answer_cp","type":"String","value":"close","chainId":"_all_"},{"id":"zr_book_chap","type":"String","value":"1","chainId":"_all_"},{"id":"soc_update","type":"String","value":"1","chainId":"_all_"},{"id":"pf_fuceng","type":"String","value":"1","chainId":"_all_"},{"id":"gue_thanks","type":"String","value":"0"},{"id":"se_entity_model","type":"String","value":"1","chainId":"_all_"},{"id":"pf_foltopic_usernum","type":"String","value":"50","chainId":"_all_"},{"id":"ls_zvideo_rec","type":"String","value":"2","chainId":"_all_"},{"id":"se_expired_ob","type":"String","value":"0","chainId":"_all_"},{"id":"se_spb309","type":"String","value":"0","chainId":"_all_"},{"id":"web_sem_ab","type":"String","value":"1"},{"id":"web_answer_update","type":"String","value":"1"},{"id":"zr_article_new","type":"String","value":"close","chainId":"_all_"},{"id":"zr_expslotpaid","type":"String","value":"5","chainId":"_all_"},{"id":"soc_yxzl_zcfw","type":"String","value":"0","chainId":"_all_"},{"id":"li_sku_bottom_bar_re","type":"String","value":"0","chainId":"_all_"},{"id":"se_wannasearch","type":"String","value":"a","chainId":"_all_"},{"id":"ls_zvideo_license","type":"String","value":"1","chainId":"_all_"},{"id":"se_pek_test","type":"String","value":"0","chainId":"_all_"},{"id":"tp_sticky_android","type":"String","value":"2","chainId":"_all_"},{"id":"soc_zcfw_shipinshiti","type":"String","value":"0","chainId":"_all_"},{"id":"soc_ri_merge","type":"String","value":"0","chainId":"_all_"},{"id":"tsp_redirecthotlist","type":"String","value":"8","chainId":"_all_"},{"id":"zr_prerank_heatscore","type":"String","value":"true","chainId":"_all_"},{"id":"sem_up_growth","type":"String","value":"in_app","chainId":"_all_"},{"id":"se_webmajorob","type":"String","value":"0","chainId":"_all_"},{"id":"se_aa_base","type":"String","value":"0","chainId":"_all_"},{"id":"se_famous","type":"String","value":"1","chainId":"_all_"},{"id":"li_album_liutongab","type":"String","value":"0","chainId":"_all_"},{"id":"se_ab","type":"String","value":"0","chainId":"_all_"},{"id":"se_col_boost","type":"String","value":"1","chainId":"_all_"},{"id":"se_auto_syn","type":"String","value":"0","chainId":"_all_"},{"id":"gue_anonymous","type":"String","value":"show"},{"id":"zr_infinity_member","type":"String","value":"close","chainId":"_all_"},{"id":"se_p_slideshow","type":"String","value":"1","chainId":"_all_"},{"id":"gue_card_test","type":"String","value":"1"},{"id":"li_vip_no_ad_mon","type":"String","value":"0","chainId":"_all_"},{"id":"se_new_topic","type":"String","value":"0","chainId":"_all_"},{"id":"se_new_merger","type":"String","value":"1","chainId":"_all_"},{"id":"se_cardrank_1","type":"String","value":"0","chainId":"_all_"},{"id":"soc_stickypush","type":"String","value":"0","chainId":"_all_"},{"id":"web_ad_banner","type":"String","value":"1"},{"id":"se_webrs","type":"String","value":"1","chainId":"_all_"},{"id":"soc_bignew","type":"String","value":"1","chainId":"_all_"},{"id":"zr_video_recall","type":"String","value":"current_recall","chainId":"_all_"},{"id":"zr_km_style","type":"String","value":"base","chainId":"_all_"},{"id":"se_club_post","type":"String","value":"5","chainId":"_all_"},{"id":"se_waterfall","type":"String","value":"0","chainId":"_all_"},{"id":"tp_sft_v2","type":"String","value":"d","chainId":"_all_"},{"id":"ls_fmp4","type":"String","value":"0","chainId":"_all_"},{"id":"zr_km_feed_nlp","type":"String","value":"old","chainId":"_all_"},{"id":"zr_rel_search","type":"String","value":"base","chainId":"_all_"},{"id":"zr_video_rank","type":"String","value":"new_rank","chainId":"_all_"},{"id":"se_cate","type":"String","value":"1","chainId":"_all_"},{"id":"tp_topic_head","type":"String","value":"0","chainId":"_all_"},{"id":"top_test_4_liguangyi","type":"String","value":"1","chainId":"_all_"},{"id":"li_answer_card","type":"String","value":"0","chainId":"_all_"},{"id":"li_ebook_audio","type":"String","value":"1","chainId":"_all_"},{"id":"qap_question_author","type":"String","value":"0","chainId":"_all_"},{"id":"zr_rewrite_query","type":"String","value":"1","chainId":"_all_"},{"id":"se_topiclabel","type":"String","value":"1","chainId":"_all_"},{"id":"tp_score_1","type":"String","value":"a","chainId":"_all_"},{"id":"top_root","type":"String","value":"0","chainId":"_all_"},{"id":"li_purchase_test","type":"String","value":"0","chainId":"_all_"},{"id":"zr_km_recall","type":"String","value":"default","chainId":"_all_"},{"id":"zr_km_special","type":"String","value":"open","chainId":"_all_"},{"id":"se_ad_index","type":"String","value":"10","chainId":"_all_"},{"id":"se_member_rescore","type":"String","value":"0","chainId":"_all_"},{"id":"ls_zvideo_like","type":"String","value":"2","chainId":"_all_"},{"id":"li_qc_pt","type":"String","value":"0","chainId":"_all_"},{"id":"qap_ques_invite","type":"String","value":"0","chainId":"_all_"},{"id":"web_column_auto_invite","type":"String","value":"0"},{"id":"se_hot_timebox","type":"String","value":"1","chainId":"_all_"},{"id":"se_use_zitem","type":"String","value":"0","chainId":"_all_"},{"id":"zr_video_rank_nn","type":"String","value":"new_rank","chainId":"_all_"},{"id":"zr_paid_answer_mix","type":"String","value":"mixed_13","chainId":"_all_"},{"id":"se_pek_test3","type":"String","value":"1","chainId":"_all_"},{"id":"tp_topic_tab","type":"String","value":"0","chainId":"_all_"},{"id":"pf_noti_entry_num","type":"String","value":"0","chainId":"_all_"},{"id":"web_question_invite","type":"String","value":"B"},{"id":"tp_club_header","type":"String","value":"1","chainId":"_all_"},{"id":"zr_km_answer","type":"String","value":"open_cvr","chainId":"_all_"},{"id":"se_college_cm","type":"String","value":"1","chainId":"_all_"},{"id":"soc_zcfw_badcase","type":"String","value":"0","chainId":"_all_"},{"id":"top_native_answer","type":"String","value":"1","chainId":"_all_"},{"id":"zw_sameq_sorce","type":"String","value":"999","chainId":"_all_"},{"id":"zr_item_nn_recall","type":"String","value":"close","chainId":"_all_"},{"id":"se_amovietab","type":"String","value":"1","chainId":"_all_"},{"id":"soc_wonderuser_recom","type":"String","value":"2","chainId":"_all_"},{"id":"ls_bullet_guide","type":"String","value":"0","chainId":"_all_"},{"id":"zr_km_feed_rerank","type":"String","value":"0","chainId":"_all_"},{"id":"se_colorfultab","type":"String","value":"1","chainId":"_all_"},{"id":"tp_qa_metacard","type":"String","value":"1","chainId":"_all_"},{"id":"li_se_media_icon","type":"String","value":"1","chainId":"_all_"},{"id":"se_websearch","type":"String","value":"3","chainId":"_all_"},{"id":"zr_km_item_cf","type":"String","value":"open","chainId":"_all_"},{"id":"tp_qa_metacard_top","type":"String","value":"top","chainId":"_all_"},{"id":"top_new_feed","type":"String","value":"5","chainId":"_all_"},{"id":"se_ctr","type":"String","value":"0","chainId":"_all_"},{"id":"soc_zcfw_broadcast","type":"String","value":"0","chainId":"_all_"},{"id":"zr_km_topic_zann","type":"String","value":"new","chainId":"_all_"},{"id":"se_likebutton","type":"String","value":"0","chainId":"_all_"},{"id":"se_sug_entrance","type":"String","value":"0","chainId":"_all_"},{"id":"se_movietab","type":"String","value":"1","chainId":"_all_"},{"id":"tp_m_intro_re_topic","type":"String","value":"1","chainId":"_all_"},{"id":"se_sug","type":"String","value":"1","chainId":"_all_"},{"id":"se_agency","type":"String","value":" 0","chainId":"_all_"},{"id":"se_adxtest","type":"String","value":"1","chainId":"_all_"},{"id":"li_se_heat","type":"String","value":"1","chainId":"_all_"},{"id":"se_ltr_cp_new","type":"String","value":"0","chainId":"_all_"},{"id":"soc_bigone","type":"String","value":"1","chainId":"_all_"},{"id":"soc_zcfw_broadcast2","type":"String","value":"1","chainId":"_all_"},{"id":"li_qa_btn_text","type":"String","value":"0","chainId":"_all_"},{"id":"qap_payc_invite","type":"String","value":"0","chainId":"_all_"},{"id":"se_zu_onebox","type":"String","value":"0","chainId":"_all_"},{"id":"se_time_threshold","type":"String","value":"0","chainId":"_all_"},{"id":"li_hot_score_ab","type":"String","value":"0","chainId":"_all_"},{"id":"se_subtext","type":"String","value":"1","chainId":"_all_"},{"id":"ug_newtag","type":"String","value":"1","chainId":"_all_"},{"id":"ls_zvideo_trans","type":"String","value":"0","chainId":"_all_"},{"id":"se_college","type":"String","value":"default","chainId":"_all_"},{"id":"se_backsearch","type":"String","value":"0","chainId":"_all_"},{"id":"tp_topic_rec","type":"String","value":"2","chainId":"_all_"},{"id":"zw_payc_qaedit","type":"String","value":"0","chainId":"_all_"},{"id":"zr_km_category","type":"String","value":"open","chainId":"_all_"},{"id":"zr_test_aa1","type":"String","value":"1","chainId":"_all_"},{"id":"se_webtimebox","type":"String","value":"1","chainId":"_all_"},{"id":"se_timebox_up","type":"String","value":"0","chainId":"_all_"},{"id":"top_ebook","type":"String","value":"0","chainId":"_all_"},{"id":"li_pay_banner_type","type":"String","value":"7","chainId":"_all_"},{"id":"soc_special","type":"String","value":"0","chainId":"_all_"},{"id":"se_cardrank_2","type":"String","value":"1","chainId":"_all_"},{"id":"se_senet","type":"String","value":"0","chainId":"_all_"},{"id":"top_hotcommerce","type":"String","value":"2","chainId":"_all_"},{"id":"zr_art_rec","type":"String","value":"base","chainId":"_all_"},{"id":"zr_slotpaidexp","type":"String","value":"5","chainId":"_all_"},{"id":"se_hotsearch","type":"String","value":"1","chainId":"_all_"},{"id":"zr_esmm_model","type":"String","value":"new","chainId":"_all_"},{"id":"se_multianswer","type":"String","value":"0","chainId":"_all_"},{"id":"tp_club_pk","type":"String","value":"1","chainId":"_all_"},{"id":"li_tjys_ec_ab","type":"String","value":"0","chainId":"_all_"},{"id":"zr_paid_answer_merge","type":"String","value":"50","chainId":"_all_"},{"id":"tp_qa_toast","type":"String","value":"1","chainId":"_all_"},{"id":"zr_answer_rec_cp","type":"String","value":"open","chainId":"_all_"},{"id":"se_lottery","type":"String","value":"0","chainId":"_all_"},{"id":"soc_cardheight","type":"String","value":"0","chainId":"_all_"},{"id":"top_v_album","type":"String","value":"1","chainId":"_all_"},{"id":"li_se_across","type":"String","value":"0","chainId":"_all_"},{"id":"zr_intervene","type":"String","value":"0","chainId":"_all_"},{"id":"se_ios_spb309","type":"String","value":"1","chainId":"_all_"},{"id":"se_mobileweb","type":"String","value":"1","chainId":"_all_"},{"id":"pf_creator_card","type":"String","value":"1","chainId":"_all_"},{"id":"li_se_section","type":"String","value":"1","chainId":"_all_"},{"id":"gue_goods_card","type":"String","value":"0"},{"id":"se_topicfeed","type":"String","value":"0","chainId":"_all_"},{"id":"se_ctx","type":"String","value":"0","chainId":"_all_"},{"id":"se_rel_search","type":"String","value":"1","chainId":"_all_"},{"id":"se_cardrank_3","type":"String","value":"0","chainId":"_all_"},{"id":"li_de","type":"String","value":"no","chainId":"_all_"},{"id":"zr_km_item_prerank","type":"String","value":"old","chainId":"_all_"},{"id":"zr_des_detail","type":"String","value":"0","chainId":"_all_"},{"id":"se_pek_test2","type":"String","value":"1","chainId":"_all_"},{"id":"se_whitelist","type":"String","value":"1","chainId":"_all_"},{"id":"li_qa_new_cover","type":"String","value":"1","chainId":"_all_"},{"id":"gue_new_special_page","type":"String","value":"1"},{"id":"li_salt_hot","type":"String","value":"1","chainId":"_all_"},{"id":"zr_slot_cold_start","type":"String","value":"aver","chainId":"_all_"},{"id":"zr_new_commodity","type":"String","value":"1","chainId":"_all_"},{"id":"li_cln_vl","type":"String","value":"no","chainId":"_all_"},{"id":"tp_header_style","type":"String","value":"1","chainId":"_all_"},{"id":"zr_km_recall_num","type":"String","value":"open","chainId":"_all_"},{"id":"se_preset_tech","type":"String","value":"0","chainId":"_all_"},{"id":"tp_club_qa","type":"String","value":"1","chainId":"_all_"},{"id":"tp_meta_card","type":"String","value":"0","chainId":"_all_"},{"id":"soc_zuichangfangwen","type":"String","value":"0","chainId":"_all_"},{"id":"li_vip_lr","type":"String","value":"2","chainId":"_all_"},{"id":"qap_question_visitor","type":"String","value":" 0","chainId":"_all_"},{"id":"web_answer_list_ad","type":"String","value":"1"},{"id":"soc_notification","type":"String","value":"1","chainId":"_all_"},{"id":"ug_goodcomment_0","type":"String","value":"1","chainId":"_all_"}],"chains":[{"chainId":"_all_"}]},"triggers":{}},"userAgent":{"Edge":false,"Wechat":false,"Weibo":false,"QQ":false,"MQQBrowser":false,"Qzone":false,"Mobile":false,"Android":false,"iOS":false,"isAppleDevice":false,"Zhihu":false,"ZhihuHybrid":false,"isBot":false,"Tablet":false,"UC":false,"Sogou":false,"Qihoo":false,"Baidu":false,"BaiduApp":false,"Safari":false,"GoogleBot":false,"AndroidDaily":false,"iOSDaily":false,"isWebView":false,"origin":"Mozilla\u002F5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\u002F537.36 (KHTML, like Gecko) Chrome\u002F66.0.3359.181 Safari\u002F537.36"},"appViewConfig":{},"ctx":{"path":"\u002Fquestion\u002F35670502"},"trafficSource":"production","edition":{"baidu":false,"sogou":false,"baiduBeijing":false,"sogouBeijing":false,"sogouInput":false},"theme":"light","enableShortcut":true,"referer":"https:\u002F\u002Fwww.zhihu.com\u002F","conf":{},"ipInfo":{},"logged":true},"me":{"columnContributions":[]},"label":{"recognizerLists":{}},"ecommerce":{},"comments":{"pagination":{},"collapsed":{},"reverse":{},"reviewing":{},"conversation":{},"parent":{}},"commentsV2":{"stickers":[],"commentWithPicPermission":{},"notificationsComments":{},"pagination":{},"collapsed":{},"reverse":{},"reviewing":{},"conversation":{},"conversationMore":{},"parent":{}},"pushNotifications":{"default":{"isFetching":false,"isDrained":false,"ids":[]},"follow":{"isFetching":false,"isDrained":false,"ids":[]},"vote_thank":{"isFetching":false,"isDrained":false,"ids":[]},"currentTab":"default","notificationsCount":{"default":0,"follow":0,"vote_thank":0}},"messages":{"data":{},"currentTab":"common","messageCount":0},"register":{"registerValidateSucceeded":null,"registerValidateErrors":{},"registerConfirmError":null,"sendDigitsError":null,"registerConfirmSucceeded":null},"login":{"loginUnregisteredError":false,"loginBindWechatError":false,"loginConfirmError":null,"sendDigitsError":null,"needSMSIdentify":false,"validateDigitsError":false,"loginConfirmSucceeded":null,"qrcodeLoginToken":"","qrcodeLoginScanStatus":0,"qrcodeLoginError":null,"qrcodeLoginReturnNewToken":false},"active":{"sendDigitsError":null,"activeConfirmSucceeded":null,"activeConfirmError":null},"switches":{},"captcha":{"captchaNeeded":false,"captchaValidated":false,"captchaBase64String":null,"captchaValidationMessage":null,"loginCaptchaExpires":false},"sms":{"supportedCountries":[]},"chat":{"chats":{},"inbox":{"recents":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"strangers":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"friends":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"search":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"config":{"newCount":0,"strangerMessageSwitch":false,"strangerMessageUnread":false,"friendCount":0}},"global":{"isChatMqttExisted":false}},"emoticons":{"emoticonGroupList":[],"emoticonGroupDetail":{}},"creator":{"currentCreatorUrlToken":null,"homeData":{"recommendQuestions":[]},"tools":{"question":{"invitationCount":{"questionFolloweeCount":0,"questionTotalCount":0},"goodatTopics":[]},"customPromotion":{"itemLists":{}},"recommend":{"recommendTimes":{}}},"explore":{"academy":{"tabs":[],"article":{}}},"rights":[],"rightsStatus":{},"levelUpperLimit":10,"account":{"growthLevel":{}},"mcn":{},"applyStatus":{}},"question":{"followers":{},"concernedFollowers":{},"answers":{"35670502":{"isFetching":false,"isDrained":false,"ids":[63986671,64323103,64324085,64351141,392245473],"newIds":[63986671,64323103,64324085,64351141,392245473],"totals":16,"isPrevDrained":true,"previous":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502\u002Fanswers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%2Cis_labeled%2Cis_recognized%2Cpaid_info%2Cpaid_info_content%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%2A%5D.topics&limit=5&offset=0&platform=desktop&sort_by=default","next":"https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F35670502\u002Fanswers?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%2Cis_labeled%2Cis_recognized%2Cpaid_info%2Cpaid_info_content%3Bdata%5B%2A%5D.mark_infos%5B%2A%5D.url%3Bdata%5B%2A%5D.author.follower_count%2Cbadge%5B%2A%5D.topics&limit=5&offset=5&platform=desktop&sort_by=default"}},"hiddenAnswers":{},"updatedAnswers":{},"collapsedAnswers":{},"notificationAnswers":{},"invitedQuestions":{"total":{"count":null,"isEnd":false,"isLoading":false,"questions":[]},"followees":{"count":null,"isEnd":false,"isLoading":false,"questions":[]}},"laterQuestions":{"count":null,"globalWriteAnimate":false,"isEnd":false,"isLoading":false,"questions":[]},"waitingQuestions":{"hot":{"isEnd":false,"isLoading":false,"questions":[]},"value":{"isEnd":false,"isLoading":false,"questions":[]},"newest":{"isEnd":false,"isLoading":false,"questions":[]},"easy":{"isEnd":false,"isLoading":false,"questions":[]}},"invitationCandidates":{},"inviters":{},"invitees":{},"similarQuestions":{},"relatedCommodities":{},"recommendReadings":{},"bio":{},"brand":{},"permission":{},"adverts":{},"advancedStyle":{},"commonAnswerCount":0,"hiddenAnswerCount":0,"meta":{},"autoInvitation":{},"simpleConcernedFollowers":{},"draftStatus":{},"disclaimers":{}},"shareTexts":{},"answers":{"voters":{},"copyrightApplicants":{},"favlists":{},"newAnswer":{},"concernedUpvoters":{},"simpleConcernedUpvoters":{},"paidContent":{},"settings":{}},"banner":{},"topic":{"bios":{},"hot":{},"newest":{},"top":{},"unanswered":{},"questions":{},"followers":{},"contributors":{},"parent":{},"children":{},"bestAnswerers":{},"wikiMeta":{},"index":{},"intro":{},"meta":{},"schema":{},"creatorWall":{},"wikiEditInfo":{},"committedWiki":{},"landingBasicData":{},"landingExcellentItems":[],"landingExcellentEditors":[],"landingCatalog":[],"landingEntries":{}},"explore":{"recommendations":{},"specials":{"entities":{},"order":[]},"roundtables":{"entities":{},"order":[]},"collections":{},"columns":{}},"articles":{"voters":{}},"favlists":{"relations":{}},"pins":{"voters":{}},"topstory":{"recommend":{"isFetching":false,"isDrained":false,"afterId":0,"items":[],"next":null},"follow":{"isFetching":false,"isDrained":false,"afterId":0,"items":[],"next":null},"followWonderful":{"isFetching":false,"isDrained":false,"afterId":0,"items":[],"next":null},"sidebar":null,"announcement":{},"hotListCategories":[],"hotList":[],"guestFeeds":{"isFetching":false,"isDrained":false,"afterId":0,"items":[],"next":null},"followExtra":{"isNewUser":null,"isFetched":false,"followCount":0,"followers":[]}},"upload":{},"video":{"data":{},"shareVideoDetail":{},"last":{}},"zvideos":{"tagoreCategory":[],"recommendations":{}},"guide":{"guide":{"isFetching":false,"isShowGuide":false}},"reward":{"answer":{},"article":{},"question":{}},"search":{"recommendSearch":[],"topSearch":{},"searchValue":{},"suggestSearch":{},"attachedInfo":{},"nextOffset":{},"topicReview":{},"generalByQuery":{},"generalByQueryInADay":{},"generalByQueryInAWeek":{},"generalByQueryInThreeMonths":{},"peopleByQuery":{},"topicByQuery":{},"columnByQuery":{},"liveByQuery":{},"albumByQuery":{},"eBookByQuery":{}},"publicEditPermission":{},"readStatus":{},"draftHistory":{"history":{},"drafts":{}},"notifications":{"recent":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"history":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"notificationActors":{"isFetching":false,"isDrained":false,"isPrevDrained":false,"result":[],"next":null,"key":null},"recentNotificationEntry":"all"},"specials":{"entities":{},"all":{"data":[],"paging":{},"isLoading":false}},"collections":{"hot":{"data":[],"paging":{},"isLoading":false}},"mcn":{"bindInfo":{},"memberCategoryList":[],"producerList":[],"categoryList":[]},"brand":{"contentPlugin":{}},"metaLink":{"metaLinkTemplate":{}},"host":{"roundtable":{"subjects":{},"applications":{"total":0},"online":{"total":0},"applies":{},"details":{},"includedResource":{},"hotQuestions":{},"batchInclude":{}},"special":{"applications":{"total":0,"pages":{},"entities":{}},"censorHistory":{},"drafts":{}}},"knowledgePlan":{"activityInfos":{},"activityStatuses":{},"premiumContents":{},"activityCreationList":{},"allCreationRankList":{}},"wallE":{"protectHistory":{"total":0,"pages":{},"entities":{}}}},"subAppName":"main"}</script><script src="https://static.zhihu.com/heifetz/vendor.1c14c07589f9cc850a64.js"></script><script src="https://static.zhihu.com/heifetz/main.app.b1f74eb253e22f196736.js"></script><script src="https://static.zhihu.com/heifetz/main.question-routes.65555d9301e6494055da.js"></script></body><script src="https://hm.baidu.com/hm.js?98beee57fd2ef70ccdd5ca52b9740c49" async=""></script></html><html><title>403: Forbidden</title><body><h1>403: Forbidden</h1></body></html><!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="05a3bc92ddc04bf5">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,SE_I:c,nwebQAGrowth:experiment,recom_answer_rec:answer_recall_by_answer_content,is_office:false,nweb_growth_people:default,recom_live_ac:filter_upgrade,app_store_rate_dialog:close,live_store:ls_a3_b2_c2_f2,nweb_search:nweb_search_heifetz,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,search_hybrid_tabs:pin-3#album-7,recommend_question:rec_question_old,recommend_live_detail:live_detail_word2vec_v2,search_section_style:1,nweb_search_suggest:experiment,enable_vote_down_reason_menu:d,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button">
+<title>问题日志 - 如何理解麻将里面的各种技巧？ - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/question/35670502/log">
+<meta id="znonce" name="znonce" content="16cb89107bbb4328a4d709bdf9711f0a">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+<style>
+#zh-question-operation-menu{display:none}
+#zh-question-side-header-wrap {
+float: none;
+}
+</style>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+<div class="top-nav-profile">
+<a href="/people/xu-zi-chi-84" class="zu-top-nav-userinfo ">
+<span class="name">徐子迟</span>
+<img class="Avatar" src="https://pic4.zhimg.com/da8e974dc_s.jpg" srcset="https://pic4.zhimg.com/da8e974dc_xs.jpg 2x" alt="徐子迟" />
+<span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+<ul class="top-nav-dropdown" id="top-nav-profile-dropdown">
+<li>
+<a href="/people/xu-zi-chi-84">
+<i class="zg-icon zg-icon-dd-home"></i>我的主页
+</a>
+</li>
+
+<li>
+<a href="/messages">
+<i class="zg-icon zg-icon-dd-pm"></i>私信
+<span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+</li>
+<li>
+<a href="/settings">
+<i class="zg-icon zg-icon-dd-settings"></i>设置
+</a>
+</li>
+<li>
+<a href="/logout">
+<i class="zg-icon zg-icon-dd-logout"></i>退出
+</a>
+</li>
+</ul>
+
+</div>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+<li class="top-nav-noti zu-top-nav-li ">
+<a class="zu-top-nav-link" href="/notifications" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息</a>
+</li>
+
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="zm-tag-editor zg-section">
+<div class="zm-tag-editor-labels zg-clear">
+
+<a class="zm-item-tag"
+href="/topic/19556383"
+data-hovercard="t$b$19556383" data-token="19556383" data-topicid="2041" data-za-element-name="Title">
+麻将
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19905216"
+data-hovercard="t$b$19905216" data-token="19905216" data-topicid="120437" data-za-element-name="Title">
+麻将技术
+</a>
+
+</div>
+</div>
+<div id="zh-question-title">
+<h2 class="zm-item-title zm-editable-content">
+<a href="/question/35670502" data-za-element-name="Title">
+如何理解麻将里面的各种技巧？
+</a>
+</h2>
+</div>
+<h2>问题编辑日志</h2>
+<div id="zh-question-log-list-wrap">
+
+<div class="zm-item" id="logitem-1341940191">
+
+<div>
+<a target="_blank" data-hovercard="p$t$dight119" href="/people/dight119">段昊</a>
+<span class="zg-gray-normal">编辑了问题</span>
+</div>
+
+<div class="zg-item-log-detail">
+
+<del>怎么</del><ins>如何</ins>理解<del>打</del>麻将里面的各种技巧？
+
+</div>
+
+<b>修改理由</b>：改进标点或格式
+
+<div class="zm-item-meta">
+#196071823
+
+<span class="zg-bull">&bull;</span><a
+href="javascript:;"
+name="revert"
+id="revert-1341940191"
+data-type="question"
+
+
+data-token="35670502"
+
+>撤销</a>
+
+
+
+<span class="zg-bull">&bull;</span><a
+href="javascript:;"
+name="report"
+data-id="1341940191"
+data-type="question"
+
+
+data-token="35670502"
+
+>举报恶意编辑</a>
+
+<span class="zg-bull">&bull;</span><time datetime="2015-09-16 21:08:45">2015-09-16 21:08:45</time>
+
+</div>
+</div>
+
+<div class="zm-item" id="logitem-1341656701">
+
+<div>
+<a target="_blank" data-hovercard="p$t$meng-mian-54" href="/people/meng-mian-54">蒙面</a>
+<span class="zg-gray-normal">添加了话题</span>
+</div>
+
+<div class="zg-item-log-detail">
+
+<ins><a data-hovercard="t$t$19905216" href="/topic/19905216">麻将技术</a></ins>
+
+</div>
+
+
+
+<div class="zm-item-meta">
+#196026491
+
+<span class="zg-bull">&bull;</span><a
+href="javascript:;"
+name="revert"
+id="revert-1341656701"
+data-type="question"
+
+
+data-token="35670502"
+
+>撤销</a>
+
+
+
+<span class="zg-bull">&bull;</span><a
+href="javascript:;"
+name="report"
+data-id="1341656701"
+data-type="question"
+
+
+data-token="35670502"
+
+>举报恶意编辑</a>
+
+<span class="zg-bull">&bull;</span><time datetime="2015-09-16 19:18:38">2015-09-16 19:18:38</time>
+
+</div>
+</div>
+
+<div class="zm-item" id="logitem-1341656699">
+
+<div>
+<a target="_blank" data-hovercard="p$t$meng-mian-54" href="/people/meng-mian-54">蒙面</a>
+<span class="zg-gray-normal">添加了话题</span>
+</div>
+
+<div class="zg-item-log-detail">
+
+<ins><a data-hovercard="t$t$19556383" href="/topic/19556383">麻将</a></ins>
+
+</div>
+
+
+
+<div class="zm-item-meta">
+#196026490
+
+<span class="zg-bull">&bull;</span><a
+href="javascript:;"
+name="revert"
+id="revert-1341656699"
+data-type="question"
+
+
+data-token="35670502"
+
+>撤销</a>
+
+
+
+<span class="zg-bull">&bull;</span><a
+href="javascript:;"
+name="report"
+data-id="1341656699"
+data-type="question"
+
+
+data-token="35670502"
+
+>举报恶意编辑</a>
+
+<span class="zg-bull">&bull;</span><time datetime="2015-09-16 19:18:38">2015-09-16 19:18:38</time>
+
+</div>
+</div>
+
+<div class="zm-item" id="logitem-1341656697">
+
+<div>
+<a target="_blank" data-hovercard="p$t$meng-mian-54" href="/people/meng-mian-54">蒙面</a>
+<span class="zg-gray-normal">添加了问题</span>
+</div>
+
+<div class="zg-item-log-detail">
+
+<div>
+<ins>怎么理解打麻将里面的各种技巧？</ins>
+</div>
+
+<br />
+<div>
+补充说明：<ins>打麻将的乐趣绝非仅仅在赢钱，而在于打的时候，需要用尽各种心思骗上家盯下家，有时候要故意打好张，有时候又特意要喂一口，欲擒故纵，真真假假，羊头狗肉，声东击西，明修栈道，暗渡陈仓，上下其手，两面三刀……这哪里是打牌，完全是一种心理战。<br><br>作为一个麻将小白来讲，完全不明白上面这段话怎么理解</ins>
+</div>
+
+</div>
+
+
+
+<div class="zm-item-meta">
+#196026489
+
+
+
+
+
+<span class="zg-bull">&bull;</span><time datetime="2015-09-16 19:18:38">2015-09-16 19:18:38</time>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner" id="zh-question-side-header-wrap">
+<button data-follow="q:m:button" class="follow-button zg-follow zg-btn-green" data-id="6474887">关注问题</button>
+
+<div class="zg-btn-white" id="zh-question-operation-menu"
+
+>
+<i class="zg-icon-dropdown-menu zg-icon"></i><b class="hide-text">设置</b>
+</div>
+
+<div class="zh-question-followers-sidebar">
+<div class="zg-gray-normal">
+
+<a href="/question/35670502/followers"><strong>159</strong></a>
+人关注该问题
+
+</div>
+
+</div>
+</div>
+</div>
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<h3>问题状态</h3>
+<div class="zg-gray-normal">
+最近活动于 <span class="time">2015-09-16</span>
+<span class="zg-bull">&bull;</span>
+<a href="/question/35670502/log">查看问题日志</a>
+</div>
+<div class="zg-gray-normal">
+被浏览 <strong>126620</strong> 次，相关话题关注者 <strong>136024</strong> 人
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/question/19581624" target="_blank">知乎指南</a></li>
+<li><a href="javascript:;" id="js-feedback-button">建议反馈</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/term/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2019 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{"exclusive-popover":{},"section":{"home-topstory":{"content":"\u8fd9\u91cc\u662f\u6839\u636e\u4f60\u5173\u6ce8\u7684\u8bdd\u9898\u5b9a\u5236\u7684\u5185\u5bb9\u7cbe\u9009\uff0c\u5173\u6ce8\u5176\u4ed6\u4eba\u4e5f\u53ef\u4ee5\u8ba9\u5185\u5bb9\u66f4\u4e30\u5bcc","dismissText":"\u77e5\u9053\u4e86","title":"\u6700\u65b0\u52a8\u6001"}},"editor":[]}</script>
+
+
+
+
+
+<script type="text/template" class="bind-phone-confirmation-dialog-template">
+<div class="clearfix bind-phone-confirmation-dialog" data-za-module="BindPhoneForm">
+<p>
+<span class="bind-phone-tip">应国家法规对于帐号实名的要求，进行下一步操作前，需要先完成手机绑定。</span>
+<a href="https://zhuanlan.zhihu.com/p/27257715" target="_blank">了解更多</a>
+</p>
+<div class="text-right">
+<a href="#" class="not-to-bind-phone">暂不绑定</a>&nbsp;&nbsp;
+<button class="zg-btn-blue go-to-bind-phone">去绑定手机</button>
+</div>
+</div>
+</script>
+
+
+
+<script type="text/template" class="bind-phone-dialog-template">
+<div class="code-activate-view clearfix" data-za-module="BindPhoneForm">
+<div class="tip">绑定手机后，你就可以使用知乎的提问、回答、评论和编辑等功能。</div>
+<form class="send-code clearfix">
+<div class="input-wrapper">
+<label class="info" for="phone_no-to-send">手机：</label>
+<input type="text" id="phone_no-to-send" name="new_phone_no" class="text" required>
+</div>
+<button class="submit zg-btn-blue">获取验证码</button>
+</form>
+<form class="activate clearfix">
+<div class="input-wrapper">
+<label class="info" for="phone_no-to-bind">手机：</label>
+<input type="text" id="phone_no-to-bind" name="new_phone_no" class="text" required>
+</div>
+<div class="input-wrapper verification-code">
+<label class="info" for="digits">验证码：</label>
+<input type="text" id="digits" name="digits" class="text" placeholder="6 位数验证码" maxlength="6" required>
+<button type="button" class="resend-code">重发验证码</button>
+</div>
+<button class="submit zg-btn-blue">确认</button>
+</form>
+<div class="form-help-extra z-text-muted">
+<p>没有收到验证码？</p>
+<p>你也可以私信 <a target="_blank" href="http://www.zhihu.com/people/zhihuadmin">@知乎小管家</a> 或者发邮件至 <a href="mailto:i@zhihu.com">i@zhihu.com</a> 联系知乎管理员</p>
+</div>
+</div>
+</script>
+
+
+
+<script type="text/template" class="bind-email-notification-dialog-template">
+<div class="clearfix bind-email-notification-dialog" data-za-module="BindMailForm">
+<p>
+由于你此前绑定的邮箱未经验证，未来请使用手机号登录知乎。
+</p>
+<div class="text-right">
+<a class="zg-btn-blue js-reload" href="#">知道了</a>
+</div>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["\u5f90\u5b50\u8fdf","xu-zi-chi-84","https:\/\/pic4.zhimg.com\/da8e974dc_s.jpg","2f89003496a523796b8e96c913f0075f","\u5b66\u751f",0,0,true,null,"",0,false,false,false,"757003378277502976",false,false,false,true,null,null,true]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,null,false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":1473263669000,"now":1576930644000,"abtest_mask":"---------0--------------------","user_attr":[1,0,0,"-","-"],"user_hash":"2f89003496a523796b8e96c913f0075f"}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.69520f6b.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.1ada2230.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="current_question">{"status":"normal","isLocked":false,"isEditLocked":false,"detailEditReasonRequired":true,"editPermission":false,"isAnon":0,"qid":6474887,"urlToken":35670502,"isOrg":false,"askAboutMember":0}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.32585258.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.8704d407.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.a43b5426.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-misc.41b1d456.js"></script>
+<meta name="entry" content="ZH.entryQuestionLog" data-module-id="page-misc">
+
+<script type="text/zscript" znonce="16cb89107bbb4328a4d709bdf9711f0a"></script>
+
+<input type="hidden" name="_xsrf" value="4c764c626a785059394d616c394b79417563706c4279517a657869574934534e"/>
+</body>
+</html>
