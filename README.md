@@ -25,9 +25,10 @@ Windows10、Python3.7.4
 
 该项目结构：
 
-zhihuspider:
+```
 │  captcha.jpg
 │  encrypt.js
+│  LICENSE
 │  README.md
 │  requirements.txt
 │  zhihu_answer.py
@@ -41,6 +42,15 @@ zhihuspider:
 ├─docs
 │      “面向知乎QAWEB的网络爬虫设计与实现”软件课设任务书.doc
 │      “面向知乎QAWEB的网络爬虫设计与实现”软件课设指导书.doc
+│
+├─img
+│      topic_1.png
+│      topic_2.png
+│      topic_3.png
+│      topic_4.png
+└─     topic_5.png
+
+```
 
 该项目可以对知乎的某话题、某话题下的问题以及问题信息、某问题下的回答、某回答下的评论和某评论下的子评论进行爬取，并存入指定的csv文件中。
 
